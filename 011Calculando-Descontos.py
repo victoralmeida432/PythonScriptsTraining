@@ -3,7 +3,7 @@
 # com 5% de desconto.
 
 preco = float(input("Digite o preço do produto: "))
-desconto = (preco * 100) / 5
+desconto = (preco * 5) / 100
 novo_preco = preco - desconto
 print("O produto que custava {} passará a custar".format(preco))
-print("{} com 5% de desconto".format(novo_preco))
+print("{} com desconto de 5%.".format(novo_preco))
